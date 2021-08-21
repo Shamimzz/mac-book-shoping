@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Buy Mac Book</title>
+</head>
+<body>
+    <section>
+      <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-6 col-sm-12 col-lg-6">
+               <img class="img-fluid" src="./images/mac.png" alt="mac">
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-6">
+               <h1>Customize your Blue 24-inch</h1>
+               <h1>iMac with Apple M1 chip</h1>
+               <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memor 256GB SSD storageTwo Thunderbolt / USB 4 ports Magic MouseMagic Keyboard - US English
+               </p>            
+              <div class="Memory mt-4">
+                <h5>Memory</h5>
+                <button id="8BG" class="btn btn btn-outline-success text-dark">8GB unified SSD memory</button>
+                <button id="16GB" class="btn btn btn-outline-success text-dark">16GB unified SSD memory</button>
+              </div>
+              <div class="storage mt-4">
+                <h5>Storage</h5>
+                <button id="256GB" class="btn btn btn-outline-success text-dark">256GB SSD storage</button>
+                <button id="512GB" class="btn btn btn-outline-success text-dark">512GB SSD storage</button>
+                <button id="1TB" class="btn btn btn-outline-success text-dark">1TB SSD storage</button>
+              </div>
+              <div class="delivery mt-4">
+                <h5>Choose your delivery option</h5>
+                <button id="Free-Delivery" class="btn btn-outline-success text-dark">Free Delivery</button>
+                <button id="charge-Delivery" class="btn btn-outline-success text-dark">Delivery charge $20</button>
+              </div>
+
+              <div class="product-list mt-5">
+                  <ul>
+                    <li class="d-flex justify-content-between">
+                        <span>Best Price</span>
+                        <h5>$<span id="best-price">1299</span></h5>
+                    </li><hr>
+                    <li class="d-flex justify-content-between">
+                        <span>Extra Memory Cost</span>
+                        <h5>$<span id="memory-cost">0</span></h5>
+                    </li><hr>
+                    <li class="d-flex justify-content-between">
+                        <span>Extra storage Cost</span>
+                        <h5>$<span id="storage-cost">0</span></h5>
+                    </li><hr>
+                    <li class="d-flex justify-content-between">
+                        <span>Delivery Charge</span>
+                        <h5>$<span id="delivery-cost">0</span></h5>
+                    </li><hr class="border border-bottom-dark">
+                    <li class="d-flex justify-content-between bg-info p-3">
+                        <span class="text-light font-weight-bold">Total Price</span>
+                        <h5 class="font-weight-bold">$<span id="total-cost">1299</span></h5>
+                    </li>
+                  </ul>
+                </div>
+               <div class="input-group mt-5 mb-5">
+                <input id="couponText" type="text" class="form-control" placeholder="Apply Coupon">
+                <div class="input-group-append">
+                  <button id="Apply" class="btn btn-danger">Apply</button>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="total m-auto">
+                <h1 class="font-weight-bold">Total: $<span id="total-grand">1299</span></h1>
+            </div>l
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/mac.js"></script>
+</body>
+</html>
